@@ -35,15 +35,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/system_ext/bin/sxrservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/sxrservice \
     vendor/xiaomi/juice/proprietary/system_ext/bin/test_diag_system:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/test_diag_system \
     vendor/xiaomi/juice/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/bluetooth/bt_configstore.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/bt_configstore.conf \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/bluetooth/bt_profile.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/bt_profile.conf \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/bluetooth/interop_database.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth/interop_database.conf \
     vendor/xiaomi/juice/proprietary/system_ext/etc/cdma_call_conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/cdma_call_conf.xml \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/compatconfig/settings-platform-compat-config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/compatconfig/settings-platform-compat-config.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/fs_config_files:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_files \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
     vendor/xiaomi/juice/proprietary/system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
     vendor/xiaomi/juice/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/juice/proprietary/system_ext/etc/init/init.qti.bt.logger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.qti.bt.logger.rc \
@@ -61,9 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/UimService.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/android.software.verified_boot.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.software.verified_boot.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.cellbroadcastreceiver.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.cellbroadcastreceiver.xml \
-    vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.emergency.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.emergency.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.storagemanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.storagemanager.xml \
     vendor/xiaomi/juice/proprietary/system_ext/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
@@ -654,13 +644,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.qspmhal@1.0.so \
     vendor/xiaomi/juice/proprietary/system_ext/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libjpgt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libjpgt.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/liblept.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/liblept.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libpngt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libpngt.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/Settings/lib/arm64/libtess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/Settings/lib/arm64/libtess.so \
     vendor/xiaomi/juice/proprietary/system_ext/priv-app/WfdService/lib/arm64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/WfdService/lib/arm64/libwfdnative.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libimscamera_jni.so \
-    vendor/xiaomi/juice/proprietary/system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/ims/lib/arm64/libimsmedia_jni.so \
     vendor/xiaomi/juice/proprietary/vendor/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so \
     vendor/xiaomi/juice/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/xiaomi/juice/proprietary/vendor/bin/KmInstallKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/KmInstallKeybox \
@@ -3054,23 +3038,10 @@ PRODUCT_PACKAGES += \
     uimremoteclient \
     uimremoteserver \
     xdivert \
-    CarrierConfig \
-    CellBroadcastAppPlatform \
-    EmergencyInfo \
-    GoogleFeedback \
-    GoogleOneTimeInitializer \
-    GoogleServicesFramework \
-    MiuiSystemUI \
-    QAS_DVC_MSP \
-    Settings \
-    StorageManager \
-    WallpaperCropper \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    seccamservice \
     WfdCommon \
     tcmclient \
     com.fingerprints.extension \
